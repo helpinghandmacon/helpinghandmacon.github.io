@@ -1,0 +1,135 @@
+/*	
+	COLOR CODES:
+	MUTED BLUE		: #2648A6
+	BLUE			: #2F26A6
+	GREENISH BLUE	: #2673A6
+	LIGHT BLUE		: #597BD9
+	GRAY			: #666666
+	DARK MUSTARD	: #A68426
+	BLACK			: #09122A
+	RED				: #A62648
+	GREENISH		: #48A626
+	GREEN			: #26a62f
+	RED				: #a62f26
+*/
+
+.g { background-color:#26a62f; }
+.r { background-color:#a62f26; }
+.g-box { background-color:#26a62f; width:30px; height:30px; }
+
+img { max-width:100%; width:700px; border:solid #A68426; }
+
+.left { float:left; }
+.right { float:right; }
+.clear { clear:both; }
+
+.wrapper {
+	margin:0 auto;
+	text-align:center;
+	background-color:white;
+	padding:10px 10% 10% 10%;
+	max-width:960px;
+	border:solid;
+	border-color:#A68426;
+	border-width:2px;
+}
+
+#home { text-decoration:none; }
+
+#logo {
+	margin:1em auto;
+	display:block;
+	/*border:solid;
+	background-color:none;
+	border-color:#A68426;
+	border-width:4px;
+	border-radius:1em;*/
+	width:300px;
+	color:#2F26A6;
+	text-shadow:#A68426 1px 0 1px;
+}
+
+.nav_div {
+	margin:0 auto;
+	background-color:#2673A6;
+	display:block;
+	width:204px;
+}
+
+.sub_nav_link {
+	overflow:hidden;
+	text-decoration:none;
+	background-color:white;
+	color:#2673A6;
+	padding:0 2px;
+	border-radius:1em;
+}
+
+.sub_nav_link:hover {
+	background-color:#2673A6;
+	color:white;
+}
+
+.sub_nav {
+	display:none;
+}
+
+.sub_nav_div {
+	margin:0 auto;
+	display:block;
+	width:200px;
+}
+
+.nav_link {
+	padding:2px 2em;
+	color:white;
+	text-decoration:none;
+	padding:0 10%;
+}
+
+.nav_link:hover {
+	background-color:white;
+	color:#2673A6;
+}
+
+body {
+	margin:15px auto;
+	background-color:#2648A6;
+	padding:0 10%;
+}
+
+.text { margin:0 auto; max-width:600px; text-align:left; }
+
+.product_link_img {
+	width:200px;
+	height:120px;
+	border-radius:1em;
+}
+
+.product_link_img:hover {
+	border-color:#2648A6;
+}
+
+#string_pricing_table {
+	margin:0 auto;
+	text-align:left;
+}
+
+#site_index {
+	text-decoration:none;
+}
+
+#index {
+	margin:0 auto;
+	display:table;
+	text-align:left;
+}
+
+@media print {
+	header, nav, img, footer { display:none; }
+}
+
+@media only screen and (max-width:750px) {
+	.wrapper { padding:10px 2%; }
+	body { padding:0 5px; margin:5px auto; }
+}
